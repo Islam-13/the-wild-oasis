@@ -44,6 +44,13 @@ const StyledList = styled.ul`
 
   inset-area: span-bottom left;
   position-area: span-bottom left;
+
+  @starting-style {
+    &:popover-open {
+      opacity: 0;
+      scale: 0.7;
+    }
+  }
 `;
 
 const StyledButton = styled.button`

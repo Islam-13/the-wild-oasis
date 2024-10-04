@@ -186,8 +186,7 @@ img {
 }
 
 @starting-style {
-    #dialog[open],
-    .menu-list:popover-open {
+    #dialog[open] {
       opacity: 0;
       scale: 0.7;
     }
