@@ -55,8 +55,6 @@ function DashboardLayout() {
 
   const confirmedStays = stays?.filter((stay) => stay.status !== "unconfirmed");
 
-  console.log(confirmedStays);
-
   return (
     <StyledDashboardLayout>
       <Stats

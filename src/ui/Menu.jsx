@@ -42,7 +42,7 @@ const StyledList = styled.ul`
     scale: 1;
   }
 
-  /* inset-area: span-bottom left; */
+  inset-area: span-bottom left;
   position-area: span-bottom left;
 `;
 
