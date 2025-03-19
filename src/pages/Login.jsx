@@ -5,8 +5,9 @@ import LoginForm from "../features/authentication/LoginForm";
 
 const LoginLayout = styled.main`
   min-height: 100vh;
+  padding-inline: 1rem;
   display: grid;
-  grid-template-columns: 48rem;
+  grid-template-columns: min(100%, 48rem);
   align-content: center;
   justify-content: center;
   gap: 3.2rem;

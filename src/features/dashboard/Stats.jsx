@@ -9,8 +9,8 @@ import { formatCurrency } from "../../utils/helpers";
 import styled from "styled-components";
 
 const StyledStats = styled.div`
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(240px, 100%), 1fr));
   gap: 1.2rem;
 `;
 

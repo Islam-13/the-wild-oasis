@@ -11,7 +11,6 @@ import {
 import { useDarkMode } from "../../context/DarkModeContext";
 
 const ChartBox = styled.div`
-  min-width: 400px;
   background-color: var(--color-grey-0);
   border: 1px solid var(--color-grey-100);
   border-radius: var(--border-radius-md);
