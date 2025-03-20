@@ -21,7 +21,7 @@ const StyledDashboardLayout = styled.div`
 
 const StyledMidSection = styled.div`
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(min(360px, 100%), 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(360px, 100%), 1fr));
   gap: 2.4rem;
 `;
 

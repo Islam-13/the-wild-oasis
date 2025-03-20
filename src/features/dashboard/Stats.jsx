@@ -10,7 +10,7 @@ import styled from "styled-components";
 
 const StyledStats = styled.div`
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(min(240px, 100%), 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(240px, 100%), 1fr));
   gap: 1.2rem;
 `;
 

@@ -1,9 +1,10 @@
 import styled from "styled-components";
 
 const StyledFormRow = styled.div`
-  display: grid;
+  display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  grid-template-columns: 24rem 1fr 1.2fr;
+  /* grid-template-columns: 24rem 1fr 1.2fr; */
   gap: 2.4rem;
 
   padding: 1.2rem 0;
@@ -29,6 +30,7 @@ const StyledFormRow = styled.div`
 
 const Label = styled.label`
   font-weight: 500;
+  flex-basis: 24rem;
 `;
 
 const Error = styled.span`
